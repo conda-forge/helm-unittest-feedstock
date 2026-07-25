@@ -1,5 +1,5 @@
 context:
-  version: "1.1.1"
+  version: "1.1.2"
 
 package:
   name: helm-unittest
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/helm-unittest/helm-unittest/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: a79d70f64d78c166a548c3b41a487aed26fa2b8bcd220ad268c5d8e12d9e3f4b
+  sha256: e8df5b32eb3045d4081330f19e7ae6741763d347a36578f3f8d6e0319ba02c60
 
 build:
   number: 0
