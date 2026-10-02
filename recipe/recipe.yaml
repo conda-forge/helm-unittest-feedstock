@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.2"
+  version: "1.2.0"
 
 package:
   name: helm-unittest
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/helm-unittest/helm-unittest/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e8df5b32eb3045d4081330f19e7ae6741763d347a36578f3f8d6e0319ba02c60
+  sha256: 18993b1eca71e06e1f5a8486f92e819d56c05932722bb33134b1328fe8d107b7
 
 build:
-  number: 1
+  number: 0
   script:
     - go-licenses save ./cmd/helm-unittest --save_path ./library_licenses
     - if: unix
