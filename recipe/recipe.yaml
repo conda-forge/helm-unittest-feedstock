@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: helm-unittest
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/helm-unittest/helm-unittest/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 18993b1eca71e06e1f5a8486f92e819d56c05932722bb33134b1328fe8d107b7
+  sha256: 3911ab4535c5c8d58c36b555ae3cb7f457cca32eda9fa23424b4f764f6604662
 
 build:
   number: 0
